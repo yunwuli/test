@@ -1,0 +1,118 @@
+/* 使用Raleway字型 */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+td {
+    font-family: 'Raleway', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #29323b;
+}
+
+
+/* 主色(primary) #29323b */
+
+
+/* 強調色(accent) #E2C0B9 */
+
+
+/* 字體顏色 #333 */
+
+
+/* general */
+
+.cv {
+    width: 700px;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 0 5px 22px -3px rgba(0, 0, 0, .5);
+    z-index: 3;
+    position: relative;
+}
+
+html {
+    position: relative;
+}
+
+.decoration-box {
+    width: 100%;
+    height: 400px;
+    background-color: #E2C0B9;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.cv-header,
+.cv-body,
+.cv-footer {
+    padding: 30px 50px;
+}
+
+
+/* cv-header */
+
+.cv-header {
+    background: #aaa;
+}
+
+
+/* cv-body */
+
+.experience {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    position: relative;
+    border-bottom: 1px dashed #ccc;
+}
+
+.experience:last-child {
+    border-bottom: none;
+}
+
+.company-logo {
+    top: 30px;
+    right: 0;
+    position: absolute;
+    height: 40px;
+}
+
+
+/* cv-footer */
+
+.cv-footer {
+    padding: 60px 50px;
+    background-color: #29323b;
+}
+
+.social-link {
+    color: white;
+    background: rgba(255, 255, 255, .1);
+    border: 1px dashed white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    vertical-align: top;
+    text-decoration: none;
+}
